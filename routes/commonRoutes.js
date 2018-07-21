@@ -5,7 +5,10 @@ var router = express.Router();
 // Attach a middleware logging request's time and path
 router.use(function timeLog(req, res, next) {
   var requestTime = new Date(Date.now());
-  console.log(`Date: ${requestTime.toLocaleDateString()}, Time: ${requestTime.toLocaleTimeString()}, Request Method: ${req.method}, Request Path: ${req.originalUrl}`);
+  console.log(`Date: ${requestTime.toLocaleDateString()}, \
+    Time: ${requestTime.toLocaleTimeString()}, \
+    Request Method: ${req.method}, \
+    Request Path: ${req.originalUrl}`);
   next();
 });
 
