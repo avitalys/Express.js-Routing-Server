@@ -1,5 +1,5 @@
 # Express.js-Routing-Server
-An Express.js server demonstrating the use of routes
+An Express.js sample server demonstrating the use of routes and middleware
 
 ## About this project:
 This project is a sample use of Express.js server with various simple uses of routing and middleware.
